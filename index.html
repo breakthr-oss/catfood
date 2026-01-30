@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Food Reviews - Find the Best Food for Your Feline Friend</title>
+    <meta name="description" content="Expert reviews and ratings of the best cat food brands. Discover top-rated cat food options for your beloved pet.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .hero-bg {
+            /* Embedded SVG – works when opening file directly (file://) */
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23fed7aa'/%3E%3Cstop offset='50%25' stop-color='%23fb923c'/%3E%3Cstop offset='100%25' stop-color='%23ea580c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23g)'/%3E%3Cellipse cx='600' cy='420' rx='140' ry='100' fill='%234b5563' opacity='0.25'/%3E%3Ccircle cx='540' cy='400' r='24' fill='%231f2937' opacity='0.4'/%3E%3Ccircle cx='660' cy='400' r='24' fill='%231f2937' opacity='0.4'/%3E%3Ccircle cx='550' cy='395' r='6' fill='%23fbbf24'/%3E%3Ccircle cx='670' cy='395' r='6' fill='%23fbbf24'/%3E%3Cpath fill='%231f2937' opacity='0.35' d='M600 430 L585 450 L615 450 Z'/%3E%3Cpath fill='none' stroke='%2378410a' stroke-width='4' stroke-linecap='round' opacity='0.3' d='M590 460 Q600 470 610 460'/%3E%3Cpath fill='%234b5563' opacity='0.2' d='M500 380 L480 350 L520 370 Z'/%3E%3Cpath fill='%234b5563' opacity='0.2' d='M700 380 L720 350 L680 370 Z'/%3E%3C/svg%3E");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Hero Section -->
+    <section class="relative w-full h-[600px] md:h-[700px] flex items-center justify-center overflow-hidden">
+        <div class="hero-bg absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-black/40"></div>
+        </div>
+        <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
+                Find the Purrfect Food for Your Cat
+            </h1>
+            <p class="text-xl md:text-2xl text-white/90 drop-shadow-md">
+                Expert reviews and ratings to help you choose the best nutrition for your feline friend
+            </p>
+        </div>
+    </section>
+
+    <!-- Top Foods Section -->
+    <section class="py-16 md:py-20 bg-gray-50">
+        <div class="container mx-auto px-4 max-w-7xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-4">
+                Top Rated Cat Foods
+            </h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+                Discover our highest-rated cat food options, carefully selected based on quality, nutrition, and customer satisfaction.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Food 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-full h-48 bg-gray-200 flex items-center justify-center">
+                        <span class="text-gray-400">Food Image</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Premium Salmon & Tuna</h3>
+                        <p class="text-sm text-gray-500 mb-3">Whisker Delights</p>
+                        <div class="flex items-center gap-1 mb-4">
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="ml-2 text-sm text-gray-600">(4.8)</span>
+                        </div>
+                        <p class="text-sm text-gray-600">Grain-free formula with real salmon and tuna, rich in omega-3 fatty acids for healthy skin and coat.</p>
+                    </div>
+                </div>
+
+                <!-- Food 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-full h-48 bg-gray-200 flex items-center justify-center">
+                        <span class="text-gray-400">Food Image</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Natural Chicken Recipe</h3>
+                        <p class="text-sm text-gray-500 mb-3">Purrfect Nutrition</p>
+                        <div class="flex items-center gap-1 mb-4">
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-gray-300 text-lg">★</span>
+                            <span class="ml-2 text-sm text-gray-600">(4.7)</span>
+                        </div>
+                        <p class="text-sm text-gray-600">Made with free-range chicken, no artificial preservatives, and packed with essential vitamins and minerals.</p>
+                    </div>
+                </div>
+
+                <!-- Food 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-full h-48 bg-gray-200 flex items-center justify-center">
+                        <span class="text-gray-400">Food Image</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Ocean Fish Feast</h3>
+                        <p class="text-sm text-gray-500 mb-3">Feline Fresh</p>
+                        <div class="flex items-center gap-1 mb-4">
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="ml-2 text-sm text-gray-600">(4.9)</span>
+                        </div>
+                        <p class="text-sm text-gray-600">Premium blend of ocean fish with added taurine for heart health and optimal nutrition for all life stages.</p>
+                    </div>
+                </div>
+
+                <!-- Food 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-full h-48 bg-gray-200 flex items-center justify-center">
+                        <span class="text-gray-400">Food Image</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Turkey & Duck Formula</h3>
+                        <p class="text-sm text-gray-500 mb-3">Cat Cuisine Pro</p>
+                        <div class="flex items-center gap-1 mb-4">
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-yellow-400 text-lg">★</span>
+                            <span class="text-gray-300 text-lg">★</span>
+                            <span class="ml-2 text-sm text-gray-600">(4.6)</span>
+                        </div>
+                        <p class="text-sm text-gray-600">High-protein formula with turkey and duck, perfect for active cats and those with sensitive stomachs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">
+                About Us
+            </h2>
+            <div class="prose prose-lg max-w-none">
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    At Cat Food Reviews, we're passionate about helping cat owners make informed decisions about their pet's nutrition. We understand that choosing the right food for your feline friend can be overwhelming with so many options available.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Our mission is to provide honest, comprehensive reviews of cat food products based on ingredient quality, nutritional value, brand reputation, and real-world feedback from cat owners and veterinarians.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    We believe every cat deserves the best nutrition, and we're here to help you find it. Whether you're looking for grain-free options, formulas for specific life stages, or budget-friendly choices, we've got you covered.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 md:py-20 bg-gray-50">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-4">
+                Frequently Asked Questions
+            </h2>
+            <p class="text-center text-gray-600 mb-12">
+                Have questions about cat food? We've got answers.
+            </p>
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <div class="border-b border-gray-200 pb-4 mb-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">How do you rate cat food?</h3>
+                    <p class="text-gray-600 leading-relaxed">We evaluate cat food based on ingredient quality, nutritional value, brand reputation, customer reviews, and value for money. Our ratings are based on comprehensive research and real-world feedback from cat owners.</p>
+                </div>
+                <div class="border-b border-gray-200 pb-4 mb-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">What makes a cat food "highly rated"?</h3>
+                    <p class="text-gray-600 leading-relaxed">Highly rated cat foods typically have high-quality protein sources as the first ingredient, minimal fillers, no artificial preservatives, and positive feedback from veterinarians and cat owners. They also provide complete and balanced nutrition for your cat's life stage.</p>
+                </div>
+                <div class="border-b border-gray-200 pb-4 mb-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Should I switch my cat's food?</h3>
+                    <p class="text-gray-600 leading-relaxed">If your cat is healthy and thriving on their current food, there's no need to switch. However, if you notice digestive issues, skin problems, or your cat seems uninterested, it might be time to try a different formula. Always transition gradually over 7-10 days.</p>
+                </div>
+                <div class="border-b border-gray-200 pb-4 mb-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">How much should I feed my cat?</h3>
+                    <p class="text-gray-600 leading-relaxed">Feeding amounts vary based on your cat's age, weight, activity level, and the specific food formula. Check the packaging for recommended serving sizes, and consult with your veterinarian for personalized feeding guidelines.</p>
+                </div>
+                <div class="border-b border-gray-200 pb-4 mb-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Are grain-free foods better for cats?</h3>
+                    <p class="text-gray-600 leading-relaxed">Grain-free foods can be beneficial for cats with grain allergies or sensitivities. However, most cats can digest grains without issues. The most important factor is that the food provides complete nutrition with high-quality protein sources.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Can I feed my cat both wet and dry food?</h3>
+                    <p class="text-gray-600 leading-relaxed">Yes! Many veterinarians recommend a combination of wet and dry food. Wet food helps with hydration, while dry food can help maintain dental health. The key is ensuring your cat receives the right total daily calories.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-4">
+                Get in Touch
+            </h2>
+            <p class="text-center text-gray-600 mb-12">
+                Follow us on social media for the latest reviews and cat care tips.
+            </p>
+            <div class="flex justify-center gap-8">
+                <a
+                    href="https://www.instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex flex-col items-center gap-3 p-6 rounded-lg hover:bg-gray-50 transition-colors group"
+                    aria-label="Visit our Instagram"
+                >
+                    <i class="fab fa-instagram text-5xl text-pink-600 group-hover:scale-110 transition-transform"></i>
+                    <span class="text-lg font-semibold text-gray-800">Instagram</span>
+                </a>
+                <a
+                    href="https://www.facebook.com/marketplace"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex flex-col items-center gap-3 p-6 rounded-lg hover:bg-gray-50 transition-colors group"
+                    aria-label="Visit our Facebook Marketplace"
+                >
+                    <i class="fab fa-facebook text-5xl text-blue-600 group-hover:scale-110 transition-transform"></i>
+                    <span class="text-lg font-semibold text-gray-800">Facebook Marketplace</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Simple FAQ accordion functionality
+        document.querySelectorAll('.border-b').forEach(item => {
+            const question = item.querySelector('h3');
+            const answer = item.querySelector('p');
+            if (question && answer) {
+                answer.style.display = 'none';
+                question.style.cursor = 'pointer';
+                question.addEventListener('click', () => {
+                    answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+                });
+            }
+        });
+    </script>
+</body>
+</html>
