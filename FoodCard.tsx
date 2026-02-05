@@ -32,7 +32,8 @@ export default function FoodCard({ food }: FoodCardProps) {
           src={food.image}
           alt={`${food.brand} ${food.name}`}
           fill
-          className="object-cover"
+          className="object-cover" //no OnError 
+          
         />
       </div>
       <div className="p-6">
