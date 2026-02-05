@@ -33,10 +33,7 @@ export default function FoodCard({ food }: FoodCardProps) {
           alt={`${food.brand} ${food.name}`}
           fill
           className="object-cover"
-          onError={(e) => {
-            // Fallback to placeholder background if image fails to load
-            e.currentTarget.style.display = 'none';
-          }}
+        
         />
       </div>
       <div className="p-6">
